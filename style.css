@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    filter: blur(1px);
+  }
+  
+  body {
+    margin: 0;
+    padding: 0;
+    height: 100vh; /* Set the body height to the viewport height */
+    overflow: hidden; /* Hide the scrollbars */
+    position: relative;
+  
+  }
+  
+  body::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50%; /* Adjust the width to control the size of the black section */
+    height: 100%;
+    background: #000000;
+    z-index: -1;
+  }
+  
+  body::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 50%; /* Position it next to the black section */
+    width: 50%; /* Adjust the width to control the size of the white section */
+    height: 100%;
+    background: #ffffff;
+    z-index: -1;
+  
+  }
+  
