@@ -8,9 +8,8 @@
   body {
     margin: 0;
     padding: 0;
-    height: 100vh; /* Set the body height to the viewport height */
-    overflow: hidden; /* Hide the scrollbars */
-    position: relative;
+    height: 100vh; 
+    overflow: hidden; 
   
   }
   
@@ -19,7 +18,7 @@
     position: absolute;
     top: 0;
     left: 0;
-    width: 50%; /* Adjust the width to control the size of the black section */
+    width: 50%; 
     height: 100%;
     background: #000000;
     z-index: -1;
@@ -29,8 +28,8 @@
     content: "";
     position: absolute;
     top: 0;
-    left: 50%; /* Position it next to the black section */
-    width: 50%; /* Adjust the width to control the size of the white section */
+    left: 50%;
+    width: 50%; 
     height: 100%;
     background: #ffffff;
     z-index: -1;
